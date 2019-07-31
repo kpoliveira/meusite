@@ -5,30 +5,64 @@
 
 	<!--css-->
 	<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
-
-
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<!--boostrap javascript-->
+	<script src="public/js/jquery.js"></script>
+	<script src="public/js/bootstrap.min.js"></script>
+	<script src="public/js/bootstrap.bundle.min.js"></script>
+	<!-- fim do boostrap javascript-->
+	<link href="estilo_index.css" rel="stylesheet"/>
+ 
 </head>
 <body>
-	<div class="container-fluid">
 
-		<p>Olá mundo</p>
-		<table class="table">
-			<tr>
-				<td>#</td>
-				<td>Cursos</td>
-			</tr>
-			<tr>
-				<td>1</td>
-				<td>Bootstrap</td>
-			</tr>
-		</table>
-	</div>		
+	<header>
+			<nav class="navbar navbar-light bg-dark text-light">
+				<form class="form-inline">
+					<a class="navbar-brand">Bem vindo!</a>	
+					<button type="button" class="btn btn-dark navbar">Curriculo</button>
+				</form>
+				<form class="form-inline">
+					<input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+				</form>
+			</nav>
+	</header>
 
-	<footer>
-		
-		<script src="public/js/jquery.js"></script>
-		<script src="public/js/bootstrap.bundle.min.js"></script>
+	<div id="home">
+		<div class="landing-text">
+			<h1>Bem, vindo!</h1>
+			<h3>Para conhecer um pouco mais meus aspectos tecnicos<br>
+				Basta pressionar o botao abaixo.
+			</h3>
+			<a href="#" class="btn btn-default btn-lg">Meu curriculo!</a>
+		</div>
+	</div>
+	
+	<div class="padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+				</div>
+				<div class="col-sm-6 text-center">
+					<h2>Quem sou ?</h2>
+					<p class="lead">Nascido em 1999 na cidade de Recife
+						Tive meus primeiros passos no ramo de tecnologia quando ainda pequeno.
+						Comecei a ter experiências no desenvolvimento de templates para
+						o Tumblr que era febre na época e logo me aproximei mais de novas
+						tecnologias que estavam a surgir.
+					</p>
+					<p class="lead">No ano de 2014, ingressei ao Nucleo Avançado em Educacao - 
+						Cicero Dias (NAVE - Cicero Dias), onde iniciei um curso tecnico de desen-
+						volvimento de jogos digitais. As plataformas utilizadas foram Unity.
+						</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-	</footer>
+	<div id="fixed">
+
+	</div>
 </body>
 </html>
