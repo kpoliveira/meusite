@@ -3,7 +3,7 @@ html, body{
     width: 100%;
 }
 #home {
-    background: url(/img/principal.jpg) no-repeat center center fixed;
+    background-color: url(/img/principal.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
