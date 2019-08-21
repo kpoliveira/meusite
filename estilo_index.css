@@ -1,4 +1,4 @@
-html, body{
+﻿html, body{
     height: 100%;
     width: 100%;
 }
@@ -25,4 +25,12 @@ html, body{
 }
 #foto_perfil{
     size: 100px;
+}
+#home2{
+    background: url(img/galaxy.jpg) no-repeat center center fixed;
+    display: table;
+    height: 10%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
 }
