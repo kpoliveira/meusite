@@ -1,126 +1,25 @@
-﻿
-html, body{
+﻿html, body{
     height: 100%;
     width: 100%;
 }
-
-header{
-  width: 100%;
-  height: 100vh;
-  background: url(img/principal.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.logo{
-    position: fixed;
-    float: left;
-    margin: 16px 36px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 24px;
-}
-
-nav{
+#home{
+    background: url(img/principal.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
     position: relative;
     width: 100%;
-}
-
-nav ul{
-    list-style: none;
-    background: rgba(0, 0, 0, 0);
-    overflow: hidden;
-    color: #fff;
-    padding: 0;
-    text-align: center;
-    margin: 0;
-    transition: 1s;
-}
-
-nav.black ul {
-    background: #000;
-}
-
-nav ul li{
-    display: inline-block;
-    padding: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-}
-
-.menu-icon{
-    width: 100%;
-    background: #000;
-    text-align: right;
-    box-sizing: border-box;
-    padding: 15px 24px;
-    cursor: pointer;
-    color: #fff;
-    display: none;
-}
-
-@media(max-width: 580px){
-    .logo{
-      position: fixed;
-      top: 0;
-      margin-top: 16px;
-    }
-
-    nav ul {
-      max-height: 0px;
-      background: #000;
-    }
-
-    nav.black ul{
-      background: #000;
-    }
-
-    .showing {
-      max-height: 20em;
-    }
-
-    nav ul li {
-      box-sizing: border-box;
-      width: 100%;
-      padding: 24px 0;
-      text-align: center;
-    }
-
-    .menu-icon {
-      display: block;
-    }
-}
-
-#curriculoDownload{
-    margin-top: 40px;
+    background-size: cover;
 }
 
 .landing-text {
     display: table-cell;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 .landing-text h1{
     font-size: 500%;
-    font-weight: 700;
+    font-weight: 700
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #texto1{
     padding-top: 100px;
 }
@@ -128,7 +27,7 @@ nav ul li a {
     size: 100px;
 }
 #home2{
-    background: url(img/segundafoto.jpg) no-repeat center center fixed;
+    background-color: teal;
     display: table;
     height: 30%;
     position: relative;
@@ -152,4 +51,3 @@ nav ul li a {
     padding-top: 70px;
 }
 /*-------*/
-
