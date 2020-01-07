@@ -25,9 +25,9 @@
 				<nav>
 					<h1 class="brand"><a class="text-light" href="index.html">O<span>l</span>á !</a></h1>
 					<ul>
-						<li><a class="text-light" href="#">Quem sou</a></li>
+						<li><a class="text-light" href="#texto1">Quem sou</a></li>
+						<li><a class="text-light" href="#texto2">Experiências</a></li>
 						<li><a class="text-light" href="#">O que me motiva</a></li>
-						<li><a class="text-light" href="#">Currículo</a></li>
 						<li><a class="text-light" href="#">Redes sociais</a></li>
 					</ul>
 				</nav>
@@ -39,13 +39,13 @@
 				<h3>Para conhecer um pouco mais meus aspectos tecnicos<br>
 					Basta pressionar o botão abaixo.
 				</h3>
-				<a href="pag2.html" class="btn btn-default btn-lg text-light">Meu curriculo!</a>
+				<a href="pag2.html" class="btn btn-default btn-lg">Meu curriculo!</a>
 			</div>
 		</div>
 
 		
 		<div data-aos="fade-up" data-aos-duration="1000" class="padding" id="texto1">
-			<div class="container">
+			<div class="container" id="container">
 				<div class="row">
 					<div class="col-sm-6" id="foto_perfil">
 						<img src="img/perfil.jpg">
@@ -53,16 +53,16 @@
 
 					<div class="col-sm-6 text-center" id="textoIntrodutorio">
 						<h2>Quem sou ?<br><br></h2>
-						<p class="lead">Nascido em 1999 na cidade de Recife.
+						<h4 class="lead" id="textoIntrodutorioCorpo">Nascido em 1999 na cidade de Recife.
 							Tive meus primeiros passos no ramo de tecnologia quando ainda pequeno.
 							Comecei a ter experiências no desenvolvimento de templates para
 							o Tumblr que era febre na época e logo me aproximei mais de novas
 							tecnologias que estavam a surgir.
-						</p>
-						<p class="lead">No ano de 2014, ingressei ao Núcleo Avançado em Educação - 
+						</h4>
+						<h4 class="lead"  id="textoIntrodutorioCorpo"><br> No ano de 2014, ingressei ao Núcleo Avançado em Educação - 
 							Cícero Dias (NAVE - Cícero Dias), onde iniciei um curso técnico de desen-
 							volvimento de jogos digitais. As plataformas utilizadas foram Unity.
-						</p>
+						</h4>
 					</div>
 				</div>
 				
@@ -73,44 +73,49 @@
 			<div class="padding" id="texto2">
 				<div class="container">
 					<div class="row">
-
-
-						<div class="col-sm-6 text-center">
-							
+						<div data-aos="fade-up" data-aos-duration="1000" class="col-sm-12 text-center text" id="tituloTerceiraParte">
+							<h1> Minhas experiências !</h1>
+						</div>
+						
+						<div data-aos="fade-left" data-aos-duration="1000" class="col-sm-6" id="textoCampus">
+							<p>Convite para participar do programa de mentoria em 2015.
+								Apresentamos o projeto Nhonc, que trazia solução quanto o
+								desperdício de alimentos em escolas públicas.
+								O projeto contava com o oferecimento do cardápio aos alunos
+								para que fosse pensado na quantidade exata de alimento que 
+								deveria ser feito, para assim, evitar desperdícios.</p>
 						</div>
 
-
-
-
-
-						<!-- <div class="col-sm-4 text-light">
-							<h2 id="titulo">Campus Party 2015</h2>
-							<h5 id="textocampus">Convite para participar do programa de mentoria em 2015.<br>
-								Apresentamos o projeto Nhonc, que trazia solução quanto o<br>
-								desperdício de alimentos em escolas públicas.<br><br>
-								O projeto contava com o oferecimento do cardápio aos alunos<br>
-								para que fosse pensado na quantidade exata de alimento que <br>
-								deveria ser feito, para assim, evitar desperdícios.
-							</h5>
+						<div data-aos="fade-right" data-aos-duration="1000" class="col-sm-6 text-center" id="imagemCampus">
+							<img src="/img/campus_party_logo.jpg">
 						</div>
-						<div class="col-sm-4 text-light">
-							<h2 id="titulo">Prêmio de Empreendedorismo da Secretaria de Desenvolvimento e Empreendedorismo 2015</h2>
-							<h5>Neste mesmo ano, a mesma equipe apresentou o mesmo projeto Nhonc <br>
-								no premiação. Em uma disputa muito apertada, conseguimos o segundo lugar na categoria Smart City.
-								<br><br>
-								A premiação do Primeiro colocado era investimento e mentoria do projeto para colocá-lo em prática. Ainda assim, o projeto atraiu olhares de todos que estavam presentes na cerimônia.
-							</h5>
-						</div>
-						<div class="col-sm-4 text-light">
-							<h2 id="titulo">OPEN Labs CESAR 2016</h2>
-							<h5 id="textocesar">
-								A competição foi instaurada entre os projetos existentes na escola NAVE, haviam cerca de 6 projetos escolhidos a dedo pelo CESAR e precisamos trabalhar em equipe para rever certos aspectos dos nossos projeto e evoluir.<br><br>
-								Ao fim, após a análise criteriosa, nossa equipe venceu a competição e conseguimos uma mentoria de 2 meses dos profissionais do CESAR.
-							</h5>
-						</div> -->
 
+						<div data-aos="fade-left" data-aos-duration="1000" class="col-sm-6 text-center" id="imagemPremio">
+							<img src="/img/premio_recife.jpg">
+						</div>
+
+						<div data-aos="fade-right" data-aos-duration="1000" class="col-sm-6" id="textoPremio">
+							<p>Neste mesmo ano, a mesma equipe apresentou o projeto Nhonc na premiação. Em uma disputa muito apertada, conseguimos o segundo lugar na categoria Smart City.
+								A premiação do Primeiro colocado era um investimento e mentoria no projeto para desenvolvimento e ataque em mercado.
+								Ainda assim, o projeto atraiu olhares de todos que estavam presentes na cerimônia.</p>
+						</div>
+
+						<div data-aos="fade-left" data-aos-duration="1000" class="col-sm-6" id="textoCesar">
+							<p>A competição foi instaurada entre os projetos existentes na escola NAVE, haviam cerca de 6 projetos escolhidos a dedo pelo CESAR e precisamos trabalhar em equipe para rever certos aspectos dos nossos projeto e evoluir.
+								Ao fim, após a análise criteriosa, nossa equipe venceu a competição e conseguimos uma mentoria de 2 meses dos profissionais do CESAR.</p>
+						</div>
+
+						<div data-aos="fade-right" data-aos-duration="1000" class="col-sm-6 text-center" id="imagemCesarLabs">
+							<img src="/img/cesar_logo.jpg">
+						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<div id="parallaxExp">
+			<div class="content">
+				<p>Motivação</p>
 			</div>
 		</div>
 		
