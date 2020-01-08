@@ -251,3 +251,12 @@ html, body{
     display:table-cell;
 }
 /*-------*/
+
+#blocoSkills{
+    margin-top: 150px;
+}
+
+#blocoSkills, p{
+    font-family: 'Titillium Web', sans-serif, bold;
+    font-size: 20px;
+}
