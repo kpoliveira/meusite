@@ -34,6 +34,9 @@
 			</div>
 
 			
+
+
+			
 			<div class="landing-text">
 				<h1>Bem vindo !</h1>
 				<h3>Para conhecer um pouco mais meus aspectos tecnicos<br>
@@ -122,9 +125,14 @@
 		<div class="padding">
 			<div class="container">
 				<div class="row" id="blocoSkills">
-					<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-						Popover on top
-					</button>
+					<div class="col-sm-4 text-black text-center">
+						<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click taao toggle popover</button>
+						<script>
+							$(document).ready(function(){
+							  $('[data-toggle="popover"]').popover();
+							});
+							</script>
+					</div>
 					<div class="col-sm-4 text-black text-center">
 						<p>CSS</p>
 					</div>
@@ -137,18 +145,22 @@
 
 		<div class="padding">
 			<div class="container">
-				<div class="row" id="blocoSkills2">
-					<div class="col-sm-4 text-black text-center">
-						<p>JAVA</p>
-					</div>
+				<div class="row" id="blocoSkills">
 					<div class="col-sm-4 text-black text-center">
 						<p>C#</p>
 					</div>
 					<div class="col-sm-4 text-black text-center">
-						<p>BOOTSTRAP</p>
+						<p>CSS</p>
+					</div>
+					<div class="col-sm-4 text-black text-center">
+						<p>JAVASCRIPT</p>
 					</div>
 				</div>
 			</div>
+		</div>
+
+		
+			  
 		</div>
 		
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
