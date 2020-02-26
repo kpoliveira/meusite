@@ -155,6 +155,7 @@ html, body{
 
 #textoIntrodutorio{
     font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
 }
 
 #textoIntrodutorioCorpo{
@@ -226,13 +227,6 @@ html, body{
 
 
 
-
-
-
-
-
-
-
 #parallaxExp{
     margin-top: 150px;
     background: url(img/forest.jpg) no-repeat center center fixed;
@@ -272,3 +266,12 @@ html, body{
     font-size: 70px;
     color: #007bb6;
 } 
+
+#textoFinal{
+    color: #808080;
+    margin-top: 150px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    text-align: justify center;
+    justify-content: space-between;
+}
